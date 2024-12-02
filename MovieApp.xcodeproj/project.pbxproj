@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E6C534D92CFE00250041E402 /* MovieAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C534C92CFE00250041E402 /* MovieAppApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E67A14532CEB6BF200B6C4BF /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C534C92CFE00250041E402 /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		E67A144A2CEB6BF200B6C4BF = {
 			isa = PBXGroup;
 			children = (
+				E6C534C92CFE00250041E402 /* MovieAppApp.swift */,
 				E67A14552CEB6BF200B6C4BF /* MovieApp */,
 				E67A14542CEB6BF200B6C4BF /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6C534D92CFE00250041E402 /* MovieAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
